@@ -2,42 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Is Triangle</title>
-    <link rel="stylesheet" href="isTriangle.css">
+    <title>Calculate Hypotenuse</title>
+    <link rel="stylesheet" href="Hypotenuse.css">
   </head>
   <body>
     <nav class="nav-class">
       <div class="about">Fun with Triangle</div>
         <ul>
           <li>
-            <a class="link-active" href="isTriangle.html">Is_Triangle?</a>
+            <a href="../Is_triangle/isTriangle.html">Is_Triangle?</a>
           </li>
           <li>
-            <a href="quiz.html">Triangle_Quiz</a>
+            <a href="../Quiz/quiz.html">Triangle_Quiz</a>
           </li>
           <li>
-            <a href="hypotenuse.html">Calculate_Hypotenuse</a>
+            <a class="link-active" href="/">Calculate_Hypotenuse</a>
           </li>
           <li>
-            <a href="triangle_Area.html">Calculate_Area</a>
+            <a href="../Triangle_area/triangle_Area.html">Calculate_Area</a>
           </li>
         </ul>
     </nav>
     <main class="container">
-      <h1>Angles of triangle</h1>
+      <h1>Calculate Area of Triangle</h1>
       <div class="formula">
-        Is valid Triangle only if (a+b+c)=180; where a>0,b>0,c>0
+        Length of Hypotenuse= sqrt(Base²+height²)
       </div>
-      <label for="input-box">Angle1(in degrees)</label>
+      <label for="input-box">Enter base length(in cm)</label>
       <input class="input-box"type="number">
-      <label for="input-box">Angle2(in degrees)</label>
+      <label for="input-box">Enter height length(in cm)</label>
       <input class="input-box"type="number">
-      <label for="input-box">Angle3(in degrees)</label>
-      <input class="input-box"type="number">
-      <button id="isTrainagle-btn" type="button" name="button">Is Triangle?</button>
+      <button id="hypotenuse-btn" type="button" name="button">Check Hypotenuse</button>
       <p id="output"></p>
+      <script src="hypotenuse.js" charset="utf-8"></script>
     </main>
-    <script src="isTriangle.js" charset="utf-8"></script>
   </body>
   <footer class="footer-class">
     <a class="links" href="https://github.com/Omkar38-hub" target="_blank">

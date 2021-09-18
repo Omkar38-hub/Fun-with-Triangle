@@ -2,40 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Calculate Hypotenuse</title>
-    <link rel="stylesheet" href="Hypotenuse.css">
+    <title>Calculate Area</title>
+    <link rel="stylesheet" href="triangle_Area.css">
   </head>
   <body>
     <nav class="nav-class">
       <div class="about">Fun with Triangle</div>
         <ul>
           <li>
-            <a href="isTriangle.html">Is_Triangle?</a>
+            <a href="../Is_triangle/isTriangle.html">Is_Triangle?</a>
           </li>
           <li>
-            <a href="quiz.html">Triangle_Quiz</a>
+            <a  href="../Quiz/quiz.html">Triangle_Quiz</a>
           </li>
           <li>
-            <a class="link-active" href="hypotenuse.html">Calculate_Hypotenuse</a>
+            <a href="../Hypotenuse/hypotenuse.html">Calculate_Hypotenuse</a>
           </li>
           <li>
-            <a href="triangle_Area.html">Calculate_Area</a>
+            <a class="link-active" href="/">Calculate_Area</a>
           </li>
         </ul>
     </nav>
     <main class="container">
       <h1>Calculate Area of Triangle</h1>
       <div class="formula">
-        Length of Hypotenuse= sqrt(Base²+height²)
+        Area of Triangle(Heron's formula)= sqrt(s*(s-a)*(s-b)*(s-c))
+        <p>where s=(a+b+c)/2</p>
       </div>
-      <label for="input-box">Enter base length(in cm)</label>
+      <label for="input-box">Enter first side(in cm)</label>
       <input class="input-box"type="number">
-      <label for="input-box">Enter height length(in cm)</label>
+      <label for="input-box">Enter second side(in cm)</label>
       <input class="input-box"type="number">
-      <button id="hypotenuse-btn" type="button" name="button">Check Hypotenuse</button>
+      <label for="input-box">Enter third side(in cm)</label>
+      <input class="input-box"type="number">
+      <button id="Area-btn" type="button" name="button">Calculate Area</button>
       <p id="output"></p>
-      <script src="hypotenuse.js" charset="utf-8"></script>
+      <script src="triangle_Area.js" charset="utf-8"></script>
     </main>
+
   </body>
   <footer class="footer-class">
     <a class="links" href="https://github.com/Omkar38-hub" target="_blank">
