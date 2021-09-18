@@ -1,0 +1,40 @@
+:root{
+  --primary-navcolor:#A12568;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+.nav-class{
+  background-color: var(--primary-navcolor);
+  padding: 1rem;
+  border-bottom-left-radius:3rem;
+  border-top-right-radius: 3rem;
+}
+.about{
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+a{
+  padding: 1rem 0 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+}
+ul{
+  list-style: none;
+  text-align: right;
+}
+li{
+  display: inline;
+}
+.link-active,.about{
+  font-weight: bold;
+}
+#submit-btn{
+  padding: 0.5rem;
+  font-size: large;
+  border-radius: 1rem;
+  outline: none;
+}

@@ -1,0 +1,76 @@
+:root{
+  --primary-navcolor:#A12568;
+}
+body{
+  margin: 0;
+}
+.nav-class{
+  background-color: var(--primary-navcolor);
+  padding: 1rem;
+  border-bottom-left-radius:3rem;
+  border-top-right-radius: 3rem;
+}
+.about{
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+a{
+  padding: 1rem 0 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+}
+ul{
+  list-style: none;
+  text-align: right;
+}
+li{
+  display: inline;
+}
+.link-active,.about{
+  font-weight: bold;
+}
+label{
+  font-size: 1rem;
+}
+.container{
+  margin: auto auto 7rem;
+  width: 40%;
+  text-align: left;
+  font-family: cursive;
+  color: #3B185F;
+}
+h1{
+  text-align: center;
+  color: #3B185F;
+}
+.input-box{
+  display: block;
+  margin: 0.2rem auto 1rem;
+  border: 2px solid var(--primary-navcolor);
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+#isTrainagle-btn{
+  padding: 0.5rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-navcolor);
+  outline: none;
+  margin: 1rem auto;
+  display: block;
+  font-family: cursive;
+}
+#isTrainagle-btn:hover{
+  background-color: #E63E6D;
+}
+#output{
+  font-size: large;
+  text-align: center;
+}

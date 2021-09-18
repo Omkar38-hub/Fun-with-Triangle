@@ -15,6 +15,6 @@ btn.addEventListener("click",function()
   }
   else
   {
-        output.innerText="Oh! Given angles doesn't form a triangle";
+        output.innerText="Oh! Given angles doesn't form a triangle.";
   }
 })
