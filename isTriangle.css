@@ -65,6 +65,9 @@ h1{
   outline: none;
   padding: 0.5rem;
   width: 100%;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: medium;
 }
 #isTrainagle-btn{
   padding: 0.5rem;
@@ -86,4 +89,19 @@ h1{
   font-size: large;
   text-align: center;
   font-weight: bold;
+}
+.footer-class{
+  margin : 10% auto 3%;
+  text-align: center;
+}
+.links{
+  margin: 1% 1% 0;
+}
+.copywrite{
+  padding: 0 0 1rem;
+}
+img{
+  display: inline;
+  width: 1rem;
+  height:1%;
 }

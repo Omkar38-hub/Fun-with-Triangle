@@ -10,6 +10,10 @@ function calculateArea(a,b,c)
 }
 btn.addEventListener("click",function()
 {
+  if(Number(input[0].value)&&Number(input[1].value)&&Number(input[2].value)){
   var userArea=calculateArea(Number(input[0].value),Number(input[1].value),Number(input[2].value));
   output.innerText="The Area of triangle is "+userArea.toFixed (4)+"(cm²)";
+}
+else
+  output.innerText="All fields are required!!";
 })

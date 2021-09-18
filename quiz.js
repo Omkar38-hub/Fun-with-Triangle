@@ -15,5 +15,5 @@ submit.addEventListener("click",function(){
     }
     index=index+1;
   }
-  output.innerText="Your Score is "+score+" out of 10";
+  output.innerText="Your Score is "+score+" out of 10.!!";
 })
