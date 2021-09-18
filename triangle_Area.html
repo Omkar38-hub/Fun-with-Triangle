@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculate Area</title>
+    <link rel="stylesheet" href="triangle_Area.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Is Triangle?</a>
+      <a href="quiz.html">Triangle Quiz</a>
+      <a href="hypotenuse.html">Calculate Hypotenuse</a>
+      <a href="triangle_Area.html">Calculate Area</a>
+    </nav>
+    <main class="container">
+      <h1>Calculate Area of Triangle</h1>
+      <div class="formula">
+        Area of Triangle(Heron's formula)= sqrt(s*(s-a)*(s-b)*(s-c))
+        <p>where s=(a+b+c)/2</p>
+      </div>
+      <label for="input-box">Enter first side(in cm)</label>
+      <input class="input-box"type="number">
+      <label for="input-box">Enter second side(in cm)</label>
+      <input class="input-box"type="number">
+      <label for="input-box">Enter third side(in cm)</label>
+      <input class="input-box"type="number">
+      <button id="Area-btn" type="button" name="button">Calculate Area</button>
+      <p id="output"></p>
+      <script src="triangle_Area.js" charset="utf-8"></script>
+    </main>
+
+  </body>
+</html>
